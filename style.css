@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+
+	box-sizing: border-box;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	height: 182px;
+	padding-top: 71px;
+}
+
+.header-navigation {
+	width: 700px;
+	height: 19px;
+	margin: 0 auto;
+}
+
+.header-item :not(first-child) {
+	margin-left: 80px;
+}
+
+.header-link {
+	font-family: "Playfair Display";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #7d7d7d;
+}
+
+main {
+	width: 905px;
+	margin: 0 auto;
+}
+
+.main-list {
+	width: 100%;
+}
+
+.main-list p {
+	font-family: "Playfair Display";
+	width: 420px;
+	color: #626262;
+	margin-bottom: 32px;
+}
+
+.main-list li:nth-of-type(1) {
+	margin-bottom: 130px;
+}
+
+.main-list h3 {
+	margin-top: 32px;
+}
+
+.main-list li p:nth-last-child(1) {
+	margin-top: 40px;
+}
+
+img {
+	display: block;
+	width: 420px;
+	height: 280px;
+	margin-bottom: 62px;
+}
+
+.main-list li:nth-of-type(even) {
+	margin-left: 61px;
+}
+h3 {
+	font-family: "Playfair Display";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 40px;
+	color: #626262;
+}
+
+button {
+	border: 1px solid #626262;
+	background: none;
+	width: 165px;
+	height: 60px;
+	margin: 0 auto;
+	display: block;
+	color: #7d7d7d;
+}
